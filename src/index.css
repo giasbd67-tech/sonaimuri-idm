@@ -1,1 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap');
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: 'Hind Siliguri', sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #F8FAFC;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* বাংলা ফন্ট সব জায়গায় নিশ্চিত করার জন্য */
+* {
+  font-family: 'Hind Siliguri', sans-serif !important;
+}
+
+/* স্ক্রলবার সুন্দর করার জন্য */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #1E40AF;
+  border-radius: 10px;
+}
