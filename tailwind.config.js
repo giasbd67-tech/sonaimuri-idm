@@ -7,7 +7,8 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: '#1E40AF',
+        // এখানে আমি গাঢ় সবুজ কালার (#065F46) ব্যবহার করেছি
+        primary: '#065F46', 
       },
       fontFamily: {
         bengali: ['Hind Siliguri', 'sans-serif'],
