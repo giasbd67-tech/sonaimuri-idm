@@ -7,10 +7,11 @@ export default {
   theme: {
     extend: {
       colors: {
-        // এখানে আমি গাঢ় সবুজ কালার (#065F46) ব্যবহার করেছি
+        // সোনাইমুড়ী মাদরাসা প্রজেক্টের জন্য গাঢ় সবুজ কালার
         primary: '#065F46', 
       },
       fontFamily: {
+        // আপনার পছন্দের বাংলা ফন্ট
         bengali: ['Hind Siliguri', 'sans-serif'],
       }
     },
