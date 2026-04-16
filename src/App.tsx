@@ -168,7 +168,7 @@ export default function App() {
             <h2 className="text-2xl font-black text-slate-800 tracking-tight">
               {authView === 'signin' ? 'লগইন করুন' : authView === 'reset' ? 'পাসওয়ার্ড পরিবর্তন' : 'সিকিউরিটি ভেরিফিকেশন'}
             </h2>
-            <p className="text-slate-400 text-[10px] font-black uppercase tracking-widest mt-1">Al-Azhar School System</p>
+            <p className="text-slate-400 text-[10px] font-black uppercase tracking-widest mt-1"Sonaimuri Islamia Dakhil Madrasa</p>
           </div>
 
           <form onSubmit={authView === 'signin' ? handleSignIn : authView === 'reset' ? handlePasswordReset : handleVerifyOtp} className="space-y-4">
