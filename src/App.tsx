@@ -50,7 +50,7 @@ export default function App() {
       const res = await fetch('/api/auth');
       const data = await res.json();
       // ডাটাবেস থেকে আসা বর্তমান পাসওয়ার্ডের সাথে চেক
-      if (loginCreds.username === 'Sonaimuri Islamia Dakhil Madrasa' && loginCreds.password === data.password) {
+      if (loginCreds.username === 'Sonaimuri-IDM' && loginCreds.password === data.password) {
         setIsLoggedIn(true);
       } else {
         alert('ভুল ইউজার আইডি বা পাসওয়ার্ড!');
