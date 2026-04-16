@@ -17,7 +17,7 @@ export default async function handler(req, res) {
 
       // এখানে মাস্টার ওটিপি '2026' চেক করা হচ্ছে
       if (masterOtp === '2026') {
-        await sql`UPDATE users SET password = ${newPassword} WHERE username = 'sonaimuri-idm'`;
+        await sql`UPDATE users SET password = ${newPassword} WHERE username = 'Sonaimuri-idm'`;
         return res.status(200).json({ success: true, message: 'স্থায়ীভাবে আপডেট হয়েছে!' });
       } else {
         return res.status(401).json({ error: 'ভুল ওটিপি!' });
