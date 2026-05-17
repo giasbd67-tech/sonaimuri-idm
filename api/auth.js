@@ -7,6 +7,7 @@ export default async function handler(req, res) {
   try {
     // ১. ডাটাবেস থেকে পাসওয়ার্ড পড়া (লগইন করার সময় এটি কাজ করবে)
     if (req.method === 'GET') {
+      // এখানে সিঙ্গেল কোটের ভুলটি শুধরে ব্যাকটিক (`) ব্যবহার করা হয়েছে
       const result = await sql`SELECT password FROM users WHERE username = 'Sonaimuri-idm' LIMIT 1`;
       return res.status(200).json({ password: result[0]?.password || 'sidm2026' });
     }
